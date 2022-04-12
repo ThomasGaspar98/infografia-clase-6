@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <title>Poblacion rural censo 2017</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap" rel="stylesheet">
+        <style>
+            :root { --bs-font-sans-serif: 'Roboto', sans-serif; }
+            h1{font-size: calc(2rem + 2vw)}
+            @media (min-width: 992px) { header p{ text-align: justify; text-justify: inter-word; } }
+        </style>
+    </head>
+ 
+    <body>
+
+        <header class="container">
+            <div class="row py-4">
+                <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto">
+                    <h1 class="mb-3 mt-5 text-center">Población rural según región</h1>
+
+                    <h2 class="fs-6 mb-5 text-center text-uppercase">Gaspar López</h2>
+
+                    <p class="lead">La población urbana siguió creciendo en comparación con censos
+                    anteriores, ya que en 1992 llegó a 83,5%, en 2002 fue 86,6% y en
+                    2017 representó 87,8% del total. Por el contrario, la población rural
+                    disminuyó tanto en términos porcentuales como absolutos: en 1992
+                    había 2.207.996 personas que vivían en áreas rurales, cifra que
+                    descendió a 2.026.322 en 2002 y luego creció a 2.149.469 personas
+                    en el Censo de 2017, menos que lo identificado en 1992</p>
+
+                    <p>La población urbana siguió creciendo en comparación con censos
+                    anteriores, ya que en 1992 llegó a 83,5%, en 2002 fue 86,6% y en
+                    2017 representó 87,8% del total. Por el contrario, la población rural
+                    disminuyó tanto en términos porcentuales como absolutos: en 1992
+                    había 2.207.996 personas que vivían en áreas rurales, cifra que
+                    descendió a 2.026.322 en 2002 y luego creció a 2.149.469 personas
+                    en el Censo de 2017, menos que lo identificado en 1992</p>
+                </div>
+            </div>
+        </header>
+
+        <main class="container pb-5">
+            <div class="row">
+                <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" class="bg-light my-3">
+                        <g id="grafico"></g>
+                    </svg>
+                    <style>
+                        g#grafico g{fill:#000; }
+
+                        g#grafico g:nth-child(1) rect{ fill: #beaed4; }
+                        g#grafico g:nth-child(2) rect{ fill: #7fc97f; }
+                        g#grafico g:nth-child(3) rect{ fill: #beaed4; }
+                        g#grafico g:nth-child(4) rect{ fill: #7fc97f; }
+                        g#grafico g:nth-child(5) rect{ fill: #beaed4; }
+                        g#grafico g:nth-child(6) rect{ fill: #7fc97f; }
+                        g#grafico g:nth-child(7) rect{ fill: #beaed4; }
+                        g#grafico g:nth-child(8) rect{ fill: #7fc97f; }
+                        g#grafico g:nth-child(9) rect{ fill: #beaed4; }
+                        g#grafico g:nth-child(10) rect{ fill: #7fc97f; }
+                        g#grafico g:nth-child(11) rect{ fill: #beaed4; }
+                        g#grafico g:nth-child(12) rect{ fill: #7fc97f; }
+                        g#grafico g:nth-child(13) rect{ fill: #beaed4; }
+                        g#grafico g:nth-child(14) rect{ fill: #7fc97f; }
+                        g#grafico g:nth-child(15) rect{ fill: #beaed4; }
+                        g#grafico g:nth-child(16) rect{ fill: #7fc97f; }
+
+
+                    </style>
+ </div>
+                <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto mb-5">
+                    <p>Lo que podemos saber a detalle calculando el porcentaje y la densidad de población por región es que las regiones con más porcentaje de áreas rurales son:</p>
+                    <ul> 
+                        <li><strong><em>1º</strong> Ñuble 30,6%</em></li>
+                        <li><strong><em>2º</strong> La Araucanía 29,1%</em></li>
+                        <li><strong><em>3º</strong> Los Lagos 26,4%</em></li>
+                    </ul>
+                    <p>Y las regiones con porcentajes más bajos son:</p>
+                    <ul>
+                        <li><strong><em>1º</strong> Metropolitana 3,7%</em></li>
+                        <li><strong><em>2º</strong> Antofagasta 5,9%</em></li>
+                        <li><strong><em>3º</strong> Tarapacá 6,2%</em></li>
+                    </ul>
+                </div>
+            </div>                   
+
+                    </svg>
+                </div>
+                <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto mb-5">
+                    <p>Aun con los datos que se arrojan, que son mas que nada la cantidad de gente en zonas rurales dentro de la región, cabe destacar que regiones como la metropolitana y la de Valparaíso presentan cifras exageras, debido a que su densidad poblacional es mayor que la de otras regiones, provocando que estas cifras se vean grandes.</p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1006 550">
+                <rect width="1006" height="550" x="0" y="0" fill="#ffffff" id="backgorund"></rect>
+                <g id="viz">…</g>
+                <g id="grid">…</g>
+                <g id="legend" transform="translate(806,20)">…</g>
+                </svg>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-light text-black-50">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small p-1 m-0">
+                           https://github.com/ThomasGaspar98
+                            <a href="#" class="link-dark">Gaspar López</a>
+                            <a href="https://github.com/profesorfaco/dno075-2022-1/" class="link-dark">Infografía Digital</a>
+                            <a href="https://github.com/profesorfaco/dno075-2022-1/tree/main/clase-06" class="d-none d-lg-inline link-dark">Lunes 11 de abril, 2022</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            var censo = [
+                { region: "Arica y Parinacota", poblacion: 18763 },
+                { region: "Tarapacá", poblacion: 20495 },
+                { region: "Antofagasta", poblacion: 35845 },
+                { region: "Atacama", poblacion: 25755 },
+                { region: "Coquimbo", poblacion: 136365 },
+                { region: "Valparaíso", poblacion: 163431 },
+                { region: "Metropolitana", poblacion: 263173 },
+                { region: "O'Higgins", poblacion: 234126 },
+                { region: "Maule", poblacion: 280047 },
+                { region: "Ñuble", poblacion: 125034 },
+                { region: "Biobío", poblacion: 177476 },
+                { region: "La Araucanía", poblacion: 278552 },
+                { region: "Los Ríos", poblacion: 108910 },
+                { region: "Los Lagos", poblacion: 218778 },
+                { region: "Aysén", poblacion: 21044 },
+                { region: "Magallanes", poblacion: 13489 },
+            ];
+            censo.forEach(function (dato, i) {
+                document.querySelector("#grafico").innerHTML += '<g transform="translate(10, '+ 17 * (i + 1) +')"><rect x="0" y="0" width="'+ (dato.poblacion/850) +'" height="10"></rect><text x="'+((dato.poblacion/850)+5)+'" y="8" font-size="8">'+dato.region+'</text></g>';
+            });
+        </script>
+    </body>
+</html>
